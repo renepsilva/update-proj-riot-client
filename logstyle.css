@@ -1,0 +1,1751 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-form{
+    width: 30vw;
+    height: 98.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-form img{
+    max-width: 200px;
+    max-width: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-form h1{
+    margin: 20px;
+}
+.left-form .form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.left-form .form label{
+    font-size: 15px;
+    margin: 5px;
+    font-weight: 800;
+}
+.left-form .form input{
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 0px;
+    padding: 15px 5px;
+    border: none;
+}
+
+.left-form .form input:hover{
+    background-color: rgba(226, 226, 226, 0.103);
+}
+
+.btn-socials{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+ 
+.btn-socials button{
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn-socials button i{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 20px;
+    width: 80px;
+    height: 5px;
+}
+
+.btn-socials button.facebook{
+    background: blue;
+}
+
+.btn-socials button.google img{
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+.btn-socials button.google{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 120px;
+    height: 47px;
+}
+
+.btn-socials button.apple{
+    background: black;
+}
+
+.btn-socials button.xbox{
+    background: green;
+}
+
+.right-image{
+    box-sizing: border-box;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.right-image img{
+    width: 75vw;
+    height:100vh;
+}
+
+.checkbox{
+    display: flex;
+    cursor: pointer;
+    font-weight: 800;
+    margin: 20px;
+    margin-right: 50%;
+}
+ 
+.checkbox label{
+    font-weight: 800;
+    font-size: 15px;  
+    margin: 10px;
+}
+
+.btn-log button{
+    border-radius: 25px;
+    margin: 70px;
+    margin-top: 110px;
+    background: red;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-log button:hover{
+    background: rgb(203, 0, 0);
+}
+
+.btn-log button img{
+    border: none;
+    width: 75px;
+    height: 75px;
+    padding: 15px;
+    cursor: pointer;
+}
+.suport-log{
+    margin-top: 210px;
+}
+.suport-log a{
+    color: rgb(187, 187, 187);
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.suport-log a:hover{
+    color: black;
+}
+
+.suport-log span{
+    font-weight: 800;
+    margin: 0 15px;
+    color: rgb(136, 136, 136);
+    cursor: pointer;
+}
+
+.suport-log span:hover{
+    color: black;
+}
+
+.privacy{
+    margin: 10px;
+}
+.privacy p{
+    font-weight: 800;
+    color: rgb(187, 187, 187);
+}
+
+.privacy a{
+    font-weight: 800;
+    color: rgb(187, 187, 187);
+}
+
+@media only screen and (max-width: 2200px){
+    .left-form .form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    .left-form .form label{
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 800;
+    }
+    .left-form .form input{
+        font-size: 15px;
+        font-weight: 800;
+        margin-left: 0px;
+        padding: 15px 5px;
+        border: none;
+    }
+    
+    .left-form .form input:hover{
+        background-color: rgba(226, 226, 226, 0.103);
+    }
+
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+        width: 50px;
+        height: 5px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 100px;
+        height: 47px;
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 20px;
+        margin-right: 44%;
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 15px;  
+        margin: 10px;
+    }
+
+    .btn-log button{
+        border-radius: 25px;
+        margin: 10px;
+        margin-top: 50px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 75px;
+        height: 75px;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    .suport-log{
+        margin-top: 50px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 15px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 10px;
+    }
+    .privacy p{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+}
+
+@media only screen and (max-width: 1281px){
+    .left-form{
+        width: 50vw;
+        height: 98.5vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .left-form img{
+        max-width: 150px;
+        max-width: 150px;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 20px;
+        margin-right: 35%;
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 10px;  
+        margin: 10px;
+    }
+    
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+        width: 5px;
+        height: 5px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 50px;
+        height: 47px;
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .btn-log button{
+        border-radius: 25px;
+        margin: 20px;
+        margin-top: 20px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 60px;
+        height: 60px;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    .suport-log{
+        margin-top: 10px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 10px;
+    }
+    .privacy p{
+        font-weight: 800;
+        font-size: 10px;
+        color: rgb(187, 187, 187);
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .right-image{
+        display: none;
+    }
+    
+    .right-image img{
+        display: none;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    
+    .left-form{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .left-form img{
+        max-width: 150px;
+        max-width: 150px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .left-form h1{
+        margin: 15px;
+    }
+    .left-form .form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    .left-form .form label{
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 800;
+    }
+    .left-form .form input{
+        font-size: 10px;
+        font-weight: 800;
+        margin-left: 0px;
+        padding: 15px 5px;
+        border: none;
+    }
+    
+    .left-form .form input:hover{
+        background-color: rgba(226, 226, 226, 0.103);
+    }
+
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 5px;
+        margin-left: 30px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+        width: 80px;
+        height: 5px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 120px;
+        height: 47px;
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 20px;
+        margin-right: 54%;
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 15px;  
+        margin: 10px;
+    }
+
+    .btn-log button{
+        border-radius: 20px;
+        margin: 30px;
+        margin-top: 50px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 65px;
+        height: 65px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .suport-log{
+        margin-top: 0px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 15px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 10px;
+    }
+    .privacy p{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .right-image{
+        display: none;
+    }
+    
+    .right-image img{
+        display: none;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    
+    .left-form{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .left-form img{
+        max-width: 150px;
+        max-width: 150px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .left-form h1{
+        margin: 15px;
+    }
+    .left-form .form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    .left-form .form label{
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 800;
+    }
+    .left-form .form input{
+        font-size: 10px;
+        font-weight: 800;
+        margin-left: 0px;
+        padding: 15px 5px;
+        border: none;
+    }
+    
+    .left-form .form input:hover{
+        background-color: rgba(226, 226, 226, 0.103);
+    }
+
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 5px;
+        margin-left: 30px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+        width: 80px;
+        height: 5px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 120px;
+        height: 47px;
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 20px;
+        margin-right: 54%;
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 15px;  
+        margin: 10px;
+    }
+
+    .btn-log button{
+        border-radius: 20px;
+        margin: 30px;
+        margin-top: 50px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 65px;
+        height: 65px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .suport-log{
+        margin-top: 0px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 15px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 10px;
+    }
+    .privacy p{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+}
+/************************************RESPONSIVIDADE PRO MOBILE*************************************/
+@media only screen and (max-width: 414px){
+    .right-image{
+        display: none;
+    }
+    
+    .right-image img{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    .left-form{
+        width: 96vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .left-form img{
+        max-width: 150px;
+        max-width: 150px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .left-form h1{
+        margin: 15px;
+    }
+    .left-form .form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 22%;
+    }
+    
+    .left-form .form label{
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 800;
+    }
+    .left-form .form input{
+        font-size: 10px;
+        font-weight: 800;
+        margin-left: 0px;
+        padding: 15px 5px;
+        border: none;
+    }
+    
+    .left-form .form input:hover{
+        background-color: rgba(226, 226, 226, 0.103);
+    }
+
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 90%;
+        display: flex;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 20px;
+        margin-left: 30px;
+        padding: 15;
+        width: 30px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 60px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 60px;
+        height: 40px;
+        
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 10px;
+       margin-right: 1000px;
+        width: 100vw
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 15px;  
+        margin: 10px;
+    }
+
+    .btn-log button{
+        border-radius: 20px;
+        margin: 30px;
+        margin-top: 50px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 65px;
+        height: 65px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .suport-log{
+        margin-top: 0px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 15px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 10px;
+    }
+    .privacy p{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+    }
+}
+/************************************RESPONSIVIDADE PRO MOBILE*************************************/
+
+@media only screen and (max-width: 430px){
+    .right-image{
+        display: none;
+    }
+    
+    .right-image img{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .left-form{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .left-form img{
+        max-width: 100px;
+        max-width: 100px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .left-form h1{
+        margin: 15px;
+    }
+    .left-form .form{
+        width: 80%;
+        height: 20%;
+    }
+    
+    .left-form .form label{
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 800;
+    }
+    .left-form .form input{
+        font-size: 10px;
+        font-weight: 800;
+        margin-left: 0px;
+        padding: 15px 5px;
+        border: none;
+    }
+    
+    .left-form .form input:hover{
+        background-color: rgba(226, 226, 226, 0.103);
+    }
+
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 90%;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 10px;
+        margin-left: 10px;
+        width: 60px;
+        margin-left: 17px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+        padding-left: 10px;
+        width: 5px;
+        height: 5px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 60px;
+        height: 47px;
+        
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 10px;
+        margin-right:45%;
+        width: 150px;
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 15px;  
+        margin: 10px;
+    }
+
+    .btn-log button{
+        border-radius: 20px;
+        margin: 30px;
+        margin-top: 20px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 65px;
+        height: 65px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .suport-log{
+        margin-top: 50px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 20px;
+    }
+    .privacy p{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .right-image{
+        display: none;
+    }
+    
+    .right-image img{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .left-form{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .left-form img{
+        max-width: 100px;
+        max-width: 100px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .left-form h1{
+        margin: 15px;
+    }
+    .left-form .form{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 80%;
+    }
+    
+    .left-form .form label{
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 800;
+    }
+    .left-form .form input{
+        font-size: 10px;
+        font-weight: 800;
+        margin-left: 0px;
+        padding: 15px 5px;
+        border: none;
+    }
+    
+    .left-form .form input:hover{
+        background-color: rgba(226, 226, 226, 0.103);
+    }
+
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 90%;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 20px;
+        margin-left: 10px;
+        width: 60px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+        padding-left: 10px;
+        width: 5px;
+        height: 5px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 60px;
+        height: 47px;
+        
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 10px;
+        margin-right:45%;
+        width: 150px;
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 15px;  
+        margin: 10px;
+    }
+
+    .btn-log button{
+        border-radius: 20px;
+        margin: 30px;
+        margin-top: 20px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 65px;
+        height: 65px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .suport-log{
+        margin-top: 50px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 20px;
+    }
+    .privacy p{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:375px){
+    .right-image{
+        display: none;
+    }
+    
+    .right-image img{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .left-form{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .left-form img{
+        max-width: 100px;
+        max-width: 100px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .left-form h1{
+        margin: 15px;
+    }
+    .left-form .form{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 80%;
+    }
+    
+    .left-form .form label{
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 800;
+    }
+    .left-form .form input{
+        font-size: 10px;
+        font-weight: 800;
+        margin-left: 0px;
+        padding: 15px 5px;
+        border: none;
+        text-decoration: none;
+    }
+    
+    .left-form .form input:hover{
+        background-color: rgba(226, 226, 226, 0.103);
+    }
+
+    .left-form .form input:focus{
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 90%;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 5px;
+        margin-left: 15px;
+        width: 60px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+        padding-left: 10px;
+        width: 5px;
+        height: 5px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 60px;
+        height: 47px;
+        
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 10px;
+        margin-right:45%;
+        width: 150px;
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 15px;  
+        margin: 10px;
+    }
+
+    .btn-log button{
+        border-radius: 20px;
+        margin: 30px;
+        margin-top: 20px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 65px;
+        height: 65px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .suport-log{
+        margin-top: 3px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 20px;
+    }
+    .privacy p{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .right-image{
+        display: none;
+    }
+    
+    .right-image img{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .left-form{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .left-form img{
+        max-width: 100px;
+        max-width: 100px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .left-form h1{
+        margin: 15px;
+    }
+    .left-form .form{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 80%;
+    }
+    
+    .left-form .form label{
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 800;
+    }
+    .left-form .form input{
+        font-size: 10px;
+        font-weight: 800;
+        margin-left: 0px;
+        padding: 15px 5px;
+        border: none;
+        text-decoration: none;
+    }
+    
+    .left-form .form input:hover{
+        background-color: rgba(226, 226, 226, 0.103);
+    }
+
+    .left-form .form input:focus{
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+
+    .btn-socials{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 90%;
+    }
+     
+    .btn-socials button{
+        border-radius: 5px;
+        margin: 5px;
+        margin-left: 15px;
+        width: 60px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-socials button i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+        padding-left: 10px;
+        width: 5px;
+        height: 5px;
+    }
+    
+    .btn-socials button.facebook{
+        background: blue;
+    }
+    
+    .btn-socials button.google img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    .btn-socials button.google{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 60px;
+        height: 47px;
+        
+    }
+    
+    .btn-socials button.apple{
+        background: black;
+    }
+    
+    .btn-socials button.xbox{
+        background: green;
+    }
+
+    .checkbox{
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        margin: 10px;
+        margin-right:45%;
+        width: 150px;
+    }
+     
+    .checkbox label{
+        font-weight: 800;
+        font-size: 15px;  
+        margin: 10px;
+    }
+
+    .btn-log button{
+        border-radius: 20px;
+        margin: 30px;
+        margin-top: 20px;
+        background: red;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-log button:hover{
+        background: rgb(203, 0, 0);
+    }
+    
+    .btn-log button img{
+        border: none;
+        width: 65px;
+        height: 65px;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .suport-log{
+        margin-top: 3px;
+    }
+    .suport-log a{
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+        font-weight: 800;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    
+    .suport-log a:hover{
+        color: black;
+    }
+    
+    .suport-log span{
+        font-weight: 800;
+        margin: 0 15px;
+        color: rgb(136, 136, 136);
+        cursor: pointer;
+    }
+    
+    .suport-log span:hover{
+        color: black;
+    }
+    
+    .privacy{
+        margin: 20px;
+    }
+    .privacy p{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+    }
+    
+    .privacy a{
+        font-weight: 800;
+        color: rgb(187, 187, 187);
+        font-size: 10px;
+    }
+}

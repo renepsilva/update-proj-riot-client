@@ -1,0 +1,1768 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+   background-color: #1c1c1b;
+   box-sizing: border-box;
+   overflow-x: hidden;
+   --sb-track-color: #332323;
+  --sb-thumb-color: #790000;
+  --sb-size: 5px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 3px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 3px;
+  }
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+img.logo{
+    display: flex;
+    align-items: center;
+    position: static;
+    max-width: 400px;
+    max-height:400px;
+}
+
+nav h1{
+    color: #ffff;
+    font-size: 35px;
+    margin: 50px 30px;
+    margin-left: 80px;
+}
+
+img.omen1{
+    max-width: 500px;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 20px 30px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.omen1:hover{
+    box-shadow: rgba(255, 0, 0, 0.2) 0px 54px 55px, rgba(255, 0, 0, 0.2) 0px -12px 30px, rgba(255, 0, 0, 0.2) 0px 4px 6px, rgba(255, 0, 0, 0.2) 0px 12px 13px, rgba(255, 0, 0, 0.2) 0px -3px 5px;
+    border: 4px solid #ffffffa5;
+    border-radius: 20px;
+    padding: 4px;
+    transform: scale(1.1)
+}
+
+
+img.logo-val{
+    max-width: 70px;
+    max-height: 70px;
+    display: flex;
+    margin-left: 70px;
+    padding: 0;
+    border: none;
+    margin-bottom: 30px;
+
+}
+
+#container{
+    display: inline-block;
+    position: relative;
+}
+
+#container figcaption{
+    position: absolute;
+    bottom: 15px;
+    left: 90px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffff;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.container-all-games{
+    background-color: rgb(15, 15, 15);
+}
+
+.container-all-games h1{
+    color: #ffff;
+    font-size: 35px;
+    font-weight: 800;
+    padding-left: 80px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.grid-games{
+    display: flex;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+}
+
+.grid-games .box-lol .logo-lol .txt-logo{
+    display: flex;
+    flex-direction: row;
+}
+.grid-games .box-lol{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.grid-games .box-lol img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.grid-games .box-lol img:hover{
+    box-shadow: rgba(0, 213, 255, 0.2) 0px 54px 55px, rgba(0, 213, 255, 0.2) 0px -12px 30px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+    border: 4px solid #ffffffa5;
+    border-radius: 20px;
+    padding: 4px;
+    transform: scale(1.1);
+}
+
+.box-lol .txt-logo img{
+    margin: 10px;
+    margin-left: 0px;
+    max-width: 45px;
+    max-height: 45px;
+    margin-top: 20px;
+}
+
+.txt-logo label{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffff;
+}
+
+
+.grid-games .box-lol-wr{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.grid-games .box-lol-wr img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.grid-games .box-lol-wr img:hover{
+    box-shadow: rgba(255, 208, 0, 0.2) 0px 54px 55px, rgba(255, 208, 0, 0.2) 0px -12px 30px, rgba(255, 208, 0, 0.2) 0px 4px 6px, rgba(255, 208, 0, 0.2) 0px 12px 13px, rgba(255, 208, 0, 0.2) 0px -3px 5px;
+    border: 4px solid #ffffffa5;
+    border-radius: 20px;
+    padding: 4px;
+    transform: scale(1.1);
+}
+
+.box-lol-wr .txt-logo-wr img{
+    margin-left: 0;
+    max-width: 70px;
+    max-height: 70px;
+    margin-top: 0px;
+}
+
+.txt-logo-wr label{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffff;
+}
+
+.grid-games .box-lol-rune{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.grid-games .box-lol-rune img{
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 0;
+    margin-left: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.grid-games .box-lol-rune img:hover{
+    box-shadow: rgba(0, 213, 255, 0.2) 0px 54px 55px, rgba(0, 213, 255, 0.2) 0px -12px 30px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+    border: 4px solid #ffffffa5;
+    border-radius: 20px;
+    padding: 4px;
+    transform: scale(1.1);
+}
+
+.box-lol-rune .txt-logo-rune img{
+    margin-left: 0;
+    max-width: 47px;
+    max-height: 47px;
+    margin-top: 10px;
+}
+
+.txt-logo-rune label{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffff;
+}
+
+.grid-games .box-lol-team{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.grid-games .box-lol-team img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0;
+    margin-left: 0px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.grid-games .box-lol-team img:hover{
+    box-shadow: rgba(255, 208, 0, 0.2) 0px 54px 55px, rgba(255, 208, 0, 0.2) 0px -12px 30px, rgba(255, 208, 0, 0.2) 0px 4px 6px, rgba(255, 208, 0, 0.2) 0px 12px 13px, rgba(255, 208, 0, 0.2) 0px -3px 5px;
+    border: 4px solid #ffffffa5;
+    border-radius: 20px;
+    padding: 4px;
+    transform: scale(1.1);
+}
+
+.box-lol-team .txt-logo-team img{
+    margin-left: 0;
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: 10px;
+}
+
+.txt-logo-team label{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffff;
+}
+footer{
+    background-color: rgb(15, 15, 15);
+}
+footer h1{
+    font-size: 35px;
+    color: #ffff;
+    padding-left: 80px;
+    padding-top: 30px;
+    background-color: rgb(15, 15, 15);
+}
+.riot-app-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.riot-app-banner img{
+    width: 2000px;
+    border-radius: 20px;
+}
+
+.riot-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.text-riot-mobile h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: #ffff;
+    padding: 0;
+}
+
+.text-riot-mobile p{
+    font-size: 18px;
+    font-weight: 800;
+    color: #cfcfcf;
+}
+
+.btn-download button{
+    font-size: 30px;
+    font-weight: 800;
+    color: #cfcfcf;
+    background-color: #181817;
+    border: none;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.btn-download button:hover{
+    font-size: 30px;
+    font-weight: 800;
+    color: #cfcfcf;
+    background-color: #343432;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 40px;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+
+.btn-download i{
+    color: #cfcfcf;
+    width: 50px;
+    height: 50px;
+}
+/***********************RESPONSIVIDADE 1950PX**************************/
+@media only screen and (max-width: 1950px){
+    img.logo{
+        display: flex;
+        align-items: center;
+        position: static;
+        max-width: 300px;
+        max-height:300px;
+    }
+
+    nav h1{
+        color: #ffff;
+        font-size: 25px;
+        margin: 50px 30px;
+        margin-left: 30px;
+    }
+    
+    img.omen1{
+        max-width: 250px;
+        max-width: 250px;
+        border-radius: 10px;
+        margin: 15px 30px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        cursor: pointer;
+    }
+    
+    .omen1:hover{
+        box-shadow: rgba(255, 0, 0, 0.2) 0px 54px 55px, rgba(255, 0, 0, 0.2) 0px -12px 30px, rgba(255, 0, 0, 0.2) 0px 4px 6px, rgba(255, 0, 0, 0.2) 0px 12px 13px, rgba(255, 0, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1)
+    }
+
+    img.logo-val{
+        max-width: 55px;
+        max-height: 55px;
+        display: flex;
+        margin-left: 30px;
+        border: none;
+        padding-bottom: 13px;
+    }
+    
+    #container{
+        display: inline-block;
+        position: relative;
+    }
+    
+    #container figcaption{
+        position: absolute;
+        bottom: 15px;
+        left: 90px;
+        font-size: 20px;
+        font-weight: 800;
+        color: #ffff;
+        margin-bottom: 33px;
+        margin-left: 25px;
+    }
+
+    /**************** ARTICLE***************/
+    .container-all-games{
+        background-color: rgb(15, 15, 15);
+    }
+    
+    .container-all-games h1{
+        color: #ffff;
+        font-size: 25px;
+        font-weight: 800;
+        padding-left: 28px;
+        margin-bottom: 30px;
+    }
+
+    .grid-games{
+        display: grid   ;  
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        background-color: rgb(15, 15, 15);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .grid-games .box-lol .logo-lol .txt-logo{
+        display: flex;
+        flex-direction: row;
+    }
+    .grid-games .box-lol{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
+    .grid-games .box-lol img{
+        max-width: 350px;
+        max-height: 350px;
+        margin: 0;
+        padding: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 54px 55px, rgba(0, 213, 255, 0.2) 0px -12px 30px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol .txt-logo img{
+        margin: 10px;
+        margin-left: 0px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 15px;
+    }
+    
+    .txt-logo label{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    
+    .grid-games .box-lol-wr{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    
+    .grid-games .box-lol-wr img{
+        max-width: 350px;
+        max-height: 350px;
+        margin: 0;
+        border-radius: 10px;
+        margin-right: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;   
+    }
+    
+    .grid-games .box-lol-wr img:hover{
+        box-shadow: rgba(255, 208, 0, 0.2) 0px 54px 55px, rgba(255, 208, 0, 0.2) 0px -12px 30px, rgba(255, 208, 0, 0.2) 0px 4px 6px, rgba(255, 208, 0, 0.2) 0px 12px 13px, rgba(255, 208, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-wr .txt-logo-wr img{
+        margin-left: -20px;
+        max-width: 50px;
+        max-height: 50px;
+        margin-top: 0px;
+        padding: 0;
+    }
+    
+    .txt-logo-wr label{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .grid-games .box-lol-rune{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .grid-games .box-lol-rune img{
+        max-width: 400px;
+        max-height: 400px;
+        margin-right: 120px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-rune img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 54px 55px, rgba(0, 213, 255, 0.2) 0px -12px 30px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-rune .txt-logo-rune img{
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 0px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    
+    .txt-logo-rune label{
+        position: absolute;
+        margin-right: 100px;
+        margin-top: 0px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .grid-games .box-lol-team{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
+    .grid-games .box-lol-team img{
+        max-width: 310px;
+        max-height: 310px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-team img:hover{
+        box-shadow: rgba(255, 208, 0, 0.2) 0px 54px 55px, rgba(255, 208, 0, 0.2) 0px -12px 30px, rgba(255, 208, 0, 0.2) 0px 4px 6px, rgba(255, 208, 0, 0.2) 0px 12px 13px, rgba(255, 208, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-team .txt-logo-team img{
+        margin-left: 0;
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 10px;
+    }
+    
+    .txt-logo-team label{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+
+    footer{
+        background-color: rgb(15, 15, 15);
+    }
+    footer h1{
+        font-size: 30px;
+        color: #ffff;
+        padding-left: 30px;
+        padding-top: 30px;
+        background-color: rgb(15, 15, 15);
+    }
+    .riot-app-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .riot-app-banner img{
+        width: 1700px;
+        border-radius: 20px;
+    }
+    
+    .riot-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
+    .text-riot-mobile h1{
+        font-size: 25px;
+        font-weight: 800;
+        color: #ffff;
+        margin-left: 30px;
+    }
+    
+    .text-riot-mobile p{
+        font-size: 15px;
+        font-weight: 800;
+        color: #b3b3b3;
+        margin-left: 30px;
+    }
+    .btn-download{
+        display: flex;
+        margin-right: 89px;
+    }
+    .btn-download button.app-b{
+        margin: 20px;
+    }
+
+    .btn-download button.google-b{
+        margin: 20px;
+    }
+    .btn-download button{
+        font-size: 15px;
+        font-weight: 800;
+        color: #cfcfcf;
+        background-color: #161515;
+        border: none;
+        padding: 15px;
+        margin: 20px;
+        width: 300px;
+        max-height: 300px;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn-download button:hover{
+        font-size: 15px;
+        font-weight: 800;
+        color: #cfcfcf;
+        background-color: #161515;
+        border: none;
+        padding: 15px;
+        margin: 20px;
+        width: 300px;
+        max-height: 300px;
+        border-radius: 40px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn-download i{
+        color: #cfcfcf;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/***********************RESPONSIVIDADE 1440PX**************************/
+
+@media only screen and (max-width: 1440px){
+    img.logo{
+        display: flex;
+        align-items: center;
+        position: static;
+        max-width: 300px;
+        max-height:300px;
+    }
+
+    nav h1{
+        color: #ffff;
+        font-size: 25px;
+        margin: 50px 30px;
+        margin-left: 30px;
+    }
+    
+    img.omen1{
+        max-width: 250px;
+        max-width: 250px;
+        border-radius: 10px;
+        margin: 15px 30px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        cursor: pointer;
+    }
+    
+    .omen1:hover{
+        box-shadow: rgba(255, 0, 0, 0.2) 0px 54px 55px, rgba(255, 0, 0, 0.2) 0px -12px 30px, rgba(255, 0, 0, 0.2) 0px 4px 6px, rgba(255, 0, 0, 0.2) 0px 12px 13px, rgba(255, 0, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1)
+    }
+
+    img.logo-val{
+        max-width: 55px;
+        max-height: 55px;
+        display: flex;
+        margin-left: 30px;
+        border: none;
+        padding-bottom: 13px;
+    }
+    
+    #container{
+        display: inline-block;
+        position: relative;
+    }
+    
+    #container figcaption{
+        position: absolute;
+        bottom: 15px;
+        left: 90px;
+        font-size: 20px;
+        font-weight: 800;
+        color: #ffff;
+        margin-bottom: 33px;
+        margin-left: 25px;
+    }
+
+    /**************** ARTICLE***************/
+    .container-all-games{
+        background-color: rgb(15, 15, 15);
+    }
+    
+    .container-all-games h1{
+        color: #ffff;
+        font-size: 25px;
+        font-weight: 800;
+        padding-left: 28px;
+        margin-bottom: 30px;
+    }
+
+    .grid-games{
+        display: grid   ;  
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        background-color: rgb(15, 15, 15);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .grid-games .box-lol .logo-lol .txt-logo{
+        display: flex;
+        flex-direction: row;
+    }
+    .grid-games .box-lol{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
+    .grid-games .box-lol img{
+        max-width: 350px;
+        max-height: 350px;
+        margin: 0;
+        padding: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 54px 55px, rgba(0, 213, 255, 0.2) 0px -12px 30px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol .txt-logo img{
+        margin: 10px;
+        margin-left: 0px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 15px;
+    }
+    
+    .txt-logo label{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    
+    .grid-games .box-lol-wr{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    
+    .grid-games .box-lol-wr img{
+        max-width: 350px;
+        max-height: 350px;
+        margin: 0;
+        border-radius: 10px;
+        margin-right: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;   
+    }
+    
+    .grid-games .box-lol-wr img:hover{
+        box-shadow: rgba(255, 208, 0, 0.2) 0px 54px 55px, rgba(255, 208, 0, 0.2) 0px -12px 30px, rgba(255, 208, 0, 0.2) 0px 4px 6px, rgba(255, 208, 0, 0.2) 0px 12px 13px, rgba(255, 208, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-wr .txt-logo-wr img{
+        margin-left: -20px;
+        max-width: 50px;
+        max-height: 50px;
+        margin-top: 0px;
+        padding: 0;
+    }
+    
+    .txt-logo-wr label{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .grid-games .box-lol-rune{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .grid-games .box-lol-rune img{
+        max-width: 400px;
+        max-height: 400px;
+        margin-right: 120px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-rune img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 54px 55px, rgba(0, 213, 255, 0.2) 0px -12px 30px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-rune .txt-logo-rune img{
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 0px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    
+    .txt-logo-rune label{
+        position: absolute;
+        margin-right: 100px;
+        margin-top: 0px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .grid-games .box-lol-team{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
+    .grid-games .box-lol-team img{
+        max-width: 310px;
+        max-height: 310px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-team img:hover{
+        box-shadow: rgba(255, 208, 0, 0.2) 0px 54px 55px, rgba(255, 208, 0, 0.2) 0px -12px 30px, rgba(255, 208, 0, 0.2) 0px 4px 6px, rgba(255, 208, 0, 0.2) 0px 12px 13px, rgba(255, 208, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-team .txt-logo-team img{
+        margin-left: 0;
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 10px;
+    }
+    
+    .txt-logo-team label{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+
+    footer{
+        background-color: rgb(15, 15, 15);
+    }
+    footer h1{
+        font-size: 30px;
+        color: #ffff;
+        padding-left: 30px;
+        padding-top: 30px;
+        background-color: rgb(15, 15, 15);
+    }
+    .riot-app-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .riot-app-banner img{
+        width: 1100px;
+        border-radius: 20px;
+    }
+    
+    .riot-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
+    .text-riot-mobile h1{
+        font-size: 25px;
+        font-weight: 800;
+        color: #ffff;
+        margin-left: 0px;
+    }
+    
+    .text-riot-mobile p{
+        font-size: 15px;
+        font-weight: 800;
+        color: #b3b3b3;
+        margin-left: 0px;
+    }
+
+    .btn-download{
+        display: flex;
+        margin-right: 89px;
+    }
+    .btn-download button.app-b{
+        margin: 20px;
+    }
+
+    .btn-download button.google-b{
+        margin: 20px;
+    }
+
+
+    .btn-download button{
+        font-size: 15px;
+        font-weight: 800;
+        color: #cfcfcf;
+        background-color: #161515;
+        border: none;
+        padding: 15px;
+        margin: 0px;
+        margin-right: 200px;
+        width: 200px;
+        max-height: 300px;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn-download button:hover{
+        font-size: 15px;
+        font-weight: 800;
+        color: #cfcfcf;
+        background-color: #161515;
+        border: none;
+        padding: 15px;
+        margin: 0px;
+        margin-right: 200px;
+        width: 200px;
+        max-height: 300px;
+        border-radius: 40px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn-download i{
+        color: #cfcfcf;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/***********************RESPONSIVIDADE 950PX**************************/
+
+@media only screen and (max-width: 950px) {
+    img.logo{
+        display: flex;
+        align-items: center;
+        position: static;
+        max-width: 300px;
+        max-height:300px;
+    }
+
+    nav h1{
+        color: #ffff;
+        font-size: 25px;
+        margin: 50px 30px;
+        margin-left: 30px;
+    }
+    
+    img.omen1{
+        max-width: 250px;
+        max-width: 250px;
+        border-radius: 10px;
+        margin: 15px 30px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        cursor: pointer;
+    }
+    
+    .omen1:hover{
+        box-shadow: rgba(255, 0, 0, 0.2) 0px 54px 55px, rgba(255, 0, 0, 0.2) 0px -12px 30px, rgba(255, 0, 0, 0.2) 0px 4px 6px, rgba(255, 0, 0, 0.2) 0px 12px 13px, rgba(255, 0, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1)
+    }
+
+    img.logo-val{
+        max-width: 55px;
+        max-height: 55px;
+        display: flex;
+        margin-left: 30px;
+        border: none;
+        padding-bottom: 13px;
+    }
+    
+    #container{
+        display: inline-block;
+        position: relative;
+    }
+    
+    #container figcaption{
+        position: absolute;
+        bottom: 15px;
+        left: 90px;
+        font-size: 20px;
+        font-weight: 800;
+        color: #ffff;
+        margin-bottom: 33px;
+        margin-left: 25px;
+    }
+
+    /**************** ARTICLE***************/
+    .container-all-games{
+        background-color: rgb(15, 15, 15);
+    }
+    
+    .container-all-games h1{
+        color: #ffff;
+        font-size: 25px;
+        font-weight: 800;
+        padding-left: 28px;
+        margin-bottom: 30px;
+    }
+
+    .grid-games{
+        display: grid   ;  
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+        background-color: rgb(15, 15, 15);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .grid-games .box-lol .logo-lol .txt-logo{
+        display: flex;
+        flex-direction: row;
+    }
+    .grid-games .box-lol{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
+    .grid-games .box-lol img{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 54px 55px, rgba(0, 213, 255, 0.2) 0px -12px 30px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol .txt-logo img{
+        margin: 10px;
+        margin-left: 0px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 15px;
+    }
+    
+    .txt-logo label{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    
+    .grid-games .box-lol-wr{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    
+    .grid-games .box-lol-wr img{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;   
+    }
+    
+    .grid-games .box-lol-wr img:hover{
+        box-shadow: rgba(255, 208, 0, 0.2) 0px 54px 55px, rgba(255, 208, 0, 0.2) 0px -12px 30px, rgba(255, 208, 0, 0.2) 0px 4px 6px, rgba(255, 208, 0, 0.2) 0px 12px 13px, rgba(255, 208, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-wr .txt-logo-wr img{
+        margin-left: -20px;
+        max-width: 50px;
+        max-height: 50px;
+        margin-top: 0px;
+        padding: 0;
+    }
+    
+    .txt-logo-wr label{
+        position: absolute;
+        margin-left: 8px;
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .grid-games .box-lol-rune{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
+    .grid-games .box-lol-rune img{
+        max-width: 450px;
+        max-height: 450px;
+        margin-right: 25px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-rune img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 54px 55px, rgba(0, 213, 255, 0.2) 0px -12px 30px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-rune .txt-logo-rune img{
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 25px;
+    }
+    
+    .txt-logo-rune label{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 30px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .grid-games .box-lol-team{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
+    .grid-games .box-lol-team img{
+        max-width: 310px;
+        max-height: 310px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-team img:hover{
+        box-shadow: rgba(255, 208, 0, 0.2) 0px 54px 55px, rgba(255, 208, 0, 0.2) 0px -12px 30px, rgba(255, 208, 0, 0.2) 0px 4px 6px, rgba(255, 208, 0, 0.2) 0px 12px 13px, rgba(255, 208, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-team .txt-logo-team img{
+        margin-left: 0;
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 10px;
+    }
+    
+    .txt-logo-team label{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+
+    /**************FOOTER******************/
+    footer{
+        background-color: rgb(15, 15, 15);
+    }
+    footer h1{
+        font-size: 30px;
+        color: #ffff;
+        padding-left: 30px;
+        padding-top: 30px;
+        background-color: rgb(15, 15, 15);
+    }
+    .riot-app-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .riot-app-banner img{
+        width: 600px;
+        border-radius: 20px;
+    }
+    
+    .riot-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
+    .text-riot-mobile h1{
+        font-size: 20px;
+        font-weight: 800;
+        color: #ffff;
+        margin-left: 30px;
+    }
+    
+    .text-riot-mobile p{
+        font-size: 15px;
+        font-weight: 800;
+        color: #b3b3b3;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .btn-download{
+        display: flex;
+        margin-right: 10px;
+    }
+    .btn-download button.app-b{
+        margin: 20px;
+    }
+
+    .btn-download button.google-b{
+        margin: 20px;
+    }
+    .btn-download button{
+        font-size: 15px;
+        font-weight: 800;
+        color: #cfcfcf;
+        background-color: #161515;
+        border: none;
+        padding: 15px;
+        margin: 20px;
+        width: 200px;
+        max-height: 300px;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn-download button:hover{
+        font-size: 15px;
+        font-weight: 800;
+        color: #cfcfcf;
+        background-color: #161515;
+        border: none;
+        padding: 15px;
+        margin: 20px;
+        width: 200px;
+        max-height: 300px;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn-download i{
+        color: #cfcfcf;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/*****************RESPONSIVIDADE 450px*************************/
+@media only screen and (max-width: 450px){
+
+    * {
+        overflow-x: hidden;
+    }
+    img.logo{
+        display: flex;
+        align-items: center;
+        position: static;
+        max-width: 300px;
+        max-height:300px;
+    }
+
+    nav h1{
+        color: #ffff;
+        font-size: 25px;
+        margin: 50px 30px;
+        margin-left: 30px;
+    }
+    
+    img.omen1{
+        max-width: 250px;
+        max-width: 250px;
+        border-radius: 10px;
+        margin: 15px 30px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        cursor: pointer;
+    }
+    
+    .omen1:hover{
+        box-shadow: rgba(255, 0, 0, 0.2) 0px 54px 55px, rgba(255, 0, 0, 0.2) 0px -12px 30px, rgba(255, 0, 0, 0.2) 0px 4px 6px, rgba(255, 0, 0, 0.2) 0px 12px 13px, rgba(255, 0, 0, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1)
+    }
+
+    img.logo-val{
+        max-width: 55px;
+        max-height: 55px;
+        display: flex;
+        margin-left: 30px;
+        border: none;
+        padding-bottom: 13px;
+    }
+    
+    #container{
+        display: inline-block;
+        position: relative;
+        width: 100%;
+    }
+    
+    #container figcaption{
+        position: absolute;
+        bottom: 15px;
+        left: 90px;
+        font-size: 20px;
+        font-weight: 800;
+        color: #ffff;
+        margin-bottom: 33px;
+        margin-left: 0px;
+        z-index: 10000000000;
+    }
+
+    /**************** ARTICLE***************/
+    .container-all-games{
+        background-color: rgb(15, 15, 15);
+    }
+    
+    .container-all-games h1{
+        color: #ffff;
+        font-size: 25px;
+        font-weight: 800;
+        padding-left: 28px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+
+    .grid-games{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(15, 15, 15);
+    }
+    
+    .grid-games .box-lol .logo-lol .txt-logo{
+        display: flex;
+        flex-direction: row;
+    }
+    .grid-games .box-lol{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        padding: 20px 100px;
+    }
+    
+    .grid-games .box-lol img{
+        max-width: 290px;
+        max-height: 290px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 20px 30px, rgba(0, 213, 255, 0.2) 0px -0px 10px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol .txt-logo img{
+        margin: 10px;
+        margin-left: 0px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 15px;
+    }
+    
+    .txt-logo label{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    
+    .grid-games .box-lol-wr{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        padding: 20px 100px;
+    }
+    
+    .grid-games .box-lol-wr img{
+        max-width: 290px;
+        max-height: 290px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-wr img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 20px 30px, rgba(0, 213, 255, 0.2) 0px -0px 10px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-wr .txt-logo-wr img{
+        margin-left: -20px;
+        max-width: 50px;
+        max-height: 50px;
+        margin-top: 0px;
+        padding: 0;
+    }
+    
+    .txt-logo-wr label{
+        position: absolute;
+        margin-left: 8px;
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .grid-games .box-lol-rune{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        padding: 20px 100px;
+    }
+    
+    .grid-games .box-lol-rune img{
+        max-width: 290px;
+        max-height: 290px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-rune img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 20px 30px, rgba(0, 213, 255, 0.2) 0px -0px 10px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-rune .txt-logo-rune img{
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .txt-logo-rune label{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .grid-games .box-lol-team{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        padding: 20px 100px;
+    }
+    
+    .grid-games .box-lol-team img{
+        max-width: 290px;
+        max-height: 290px;
+        margin: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+    
+    .grid-games .box-lol-team img:hover{
+        box-shadow: rgba(0, 213, 255, 0.2) 0px 20px 30px, rgba(0, 213, 255, 0.2) 0px -0px 10px, rgba(0, 213, 255, 0.2) 0px 4px 6px, rgba(0, 213, 255, 0.2) 0px 12px 13px, rgba(0, 213, 255, 0.2) 0px -3px 5px;
+        border: 4px solid #ffffffa5;
+        border-radius: 20px;
+        padding: 4px;
+        transform: scale(1.1);
+    }
+    
+    .box-lol-team .txt-logo-team img{
+        margin-left: 10px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-top: 20px;
+    }
+    
+    .txt-logo-team label{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 17px;
+        font-weight: 800;
+        color: #ffff;
+    }
+
+    footer{
+        background-color: rgb(15, 15, 15);
+    }
+    footer h1{
+        font-size: 28px;
+        color: #ffff;
+        padding-left: 30px;
+        padding-top: 30px;
+        background-color: rgb(15, 15, 15);
+        margin-left: 10px;
+    }
+    .riot-app-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .riot-app-banner img{
+        width: 300px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .riot-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    
+    .text-riot-mobile h1{
+        font-size: 15px;
+        font-weight: 800;
+        color: #ffff;
+        margin-left: 20px;
+        text-decoration: underline red;
+        cursor: pointer;
+    }
+    
+    .text-riot-mobile p{
+        font-size: 10px;
+        font-weight: 800;
+        color: #b3b3b3;
+        margin-left:20px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    .btn-download{
+        display: none;
+        flex-direction: column;
+    }
+
+    .btn-download button{
+        font-size: 10px;
+        font-weight: 800;
+        color: #cfcfcf;
+        background-color: #161515;
+        border: none;
+        padding: 5px;
+        padding-right: 25px;
+        margin: 10px;
+        width: 100px;
+        max-height: 200px;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    
+    .btn-download button:hover{
+        font-size: 10px;
+        font-weight: 800;
+        color: #cfcfcf;
+        background-color: #161515;
+        border: none;
+        padding: 5px;
+        padding-right: 25px;
+        margin: 10px;
+        width: 100px;
+        max-height: 200px;
+        border-radius: 40px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn-download i.fa-brands .fa-apple{
+        padding: 0;
+        color: #cfcfcf;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
